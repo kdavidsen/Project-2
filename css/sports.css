@@ -31,7 +31,7 @@ a{
 	background-color: blue;
 	position: absolute;
 	top:200px;
-	animation: water 5s linear 0s infinite;
+	animation: water 11s linear 0s infinite;
 }
 .animbar2{
 	width: 100%;
@@ -47,7 +47,11 @@ a{
 	background-color: blue;
 	position: absolute;
 	top:210px;
-	animation: water 3s linear 0s infinite;
+	animation: water 9s linear 0s infinite;
+}
+@keyframes water {
+	from {left:-100%;}
+	to{left:200%;}
 }
 
 /*Header*/
@@ -161,8 +165,4 @@ a{
 /*Previews*/
 .author {
 	font-size:11pt;
-}
-@keyframes water {
-	from {left:-100%;}
-	to{left:200%;}
 }

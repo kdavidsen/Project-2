@@ -1,0 +1,74 @@
+/* All CSS styles go here */
+/*Header*/
+.header {
+	background-color: blue;
+	height: 200px;
+	width: 1280px
+}
+.logo {
+	color:gold;
+	position: relative;
+}
+.navigation {
+	color: gold;
+	position: relative;
+}
+.nav1 {
+
+}
+.nav2 {
+
+}
+.nav3 {
+
+}
+.nav4 {
+
+}
+/*Header*/
+/*Article*/
+.headline{
+
+}
+.text1{
+
+}
+.text2{
+
+}
+.text3{
+
+}
+.text4{
+
+}
+.image1{
+
+}
+.image2{
+	
+}
+.image3{
+	
+}
+/*Article*/
+/*Sidebar*/
+.sidelink1 {
+
+}
+.sidelink2 {
+	
+}
+.sidelink3 {
+	
+}
+.sidelink4 {
+	
+}
+.slheadline{
+
+}
+.shorttext {
+	
+}
+/*Sidebar*/

@@ -1,0 +1,219 @@
+/* All CSS styles go here */
+/*Header*/
+html{overflow-x: hidden}
+.header {
+	background: linear-gradient(cyan, blue);
+	height: 200px;
+	width: 100%;
+overflow: hidden;
+}
+a{
+	text-decoration: none;
+}
+.logo {
+	font-family: verdana;
+	color:gold;
+	font-size: 4em;
+	position: relative;
+	letter-spacing: -5px;
+}
+.navigation {
+	font-family: verdana;
+	color: gold;
+	position: relative;
+	float: left;
+	margin:20px 20px 0px 0;
+	font-size: 16pt;
+}
+.animbar1{
+	width: 100%;
+	height: 5px;
+	background-color: blue;
+	position: absolute;
+	top:200px;
+	animation: water 5s linear 0s infinite;
+}
+.animbar2{
+	width: 100%;
+	height: 5px;
+	background-color: blue;
+	position: absolute;
+	top:205px;
+	animation: water 7s linear 0s infinite;
+}
+.animbar3{
+	width: 100%;
+	height: 5px;
+	background-color: blue;
+	position: absolute;
+	top:210px;
+	animation: water 3s linear 0s infinite;
+}
+
+
+/*Header-END*/
+.body{
+	background-color:white;
+	height: 800px;
+	width: 100%;
+	overflow: hidden;
+}
+/*Front Page Article*/
+.frontpage {
+	width: 43%;
+	height: 800px;
+	margin: auto;
+	margin-top: 30px;
+	position: relative;
+	border-left:2px solid lightblue;
+	border-right:2px solid lightblue;
+	padding: 4px
+}
+.fpheadline{
+	position: relative;
+	font-family: verdana;
+	color: darkblue;
+	font-size: 2em;
+	margin: auto;
+	border-bottom: 2px solid gold;
+	text-align: center;
+}
+.fpbodytext{
+	font-family:verdana;
+	font-size: 15pt;
+	margin: auto;
+
+}
+.fpimage{
+	background-image: url('../images/longform_smol.jpg');
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 100%;
+	margin: auto;
+}
+/*Front Page Article-END*/
+/*Mini Articles*/
+.article1{
+	position: absolute;
+	top: 415px;
+	left: 100px;
+	width: 21.43%;
+	height:300px;
+
+}
+.article2{
+	position: absolute;
+	top: 415px;
+	right: 100px;
+	width: 21.43%;
+	height:300px;
+	
+}
+.article3{
+	position: absolute;
+	top: 715px;
+	right: 100px;
+	width: 21.43%;
+	height:300px;
+
+}
+.article4{
+	position: absolute;
+	top: 715px;
+	left: 100px;
+	width: 21.43%;
+	height:300px;
+
+}
+.headline{
+	color: darkblue;
+	font-family: verdana;
+	font-size: 14pt;
+	position: relative;
+	border-bottom: 2px solid gold;
+}
+.subtitle{
+	font-family: verdana;
+	font-size: 13pt;
+	position: relative;
+	color:black;
+	border-bottom: none;
+}
+.bodytext{
+	font-family: verdana;
+	font-size: 10pt;
+}
+.start{
+	color: lightblue;
+}
+.image1{
+	background-image: url('../images/cloverland.jpg');
+	background-size:contain;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 150px
+}
+.image2{
+	background-image: url('../images/engagement.jpg');
+	background-size:contain;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 150px
+}
+
+.image3{
+	background-image: url('../images/georgeweeks.jpg');
+	background-size:contain;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 150px
+}
+/*Mini Articles-END*/
+.ad1{
+	background-image: url(../images/fish.png);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 150px;
+	top:265px;
+	left: 50px;
+	position: absolute;
+}
+.ad2{
+	background-image: url(../images/fort.png);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 100px;
+	top:915px;
+	left: 50px;
+	position: absolute;
+}
+.ad3{
+	background-image: url(../images/hotel.png);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 150px;
+	top:265px;
+	right: 50px;
+	position: absolute;
+}
+.ad4{
+	background-image: url(../images/swimming.png);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 100px;
+	top:915px;
+	right: 50px;
+	position: absolute;
+}
+.author {
+	font-size:11pt;
+}
+@keyframes water {
+	from {left:-100%;}
+	to{left:200%;}
+}

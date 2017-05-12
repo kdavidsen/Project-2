@@ -10,6 +10,13 @@ overflow: hidden;
 a{
 	text-decoration: none;
 }
+a:hover{
+	color: red;
+}
+.navigation:visited{
+	color: purple;
+}
+
 .logo {
 	font-family: verdana;
 	color:gold;
@@ -60,10 +67,13 @@ a{
 	height: 800px;
 	width: 100%;
 }
+video{
+	float: left;
+	margin: 1px;
+}
 /*Articles*/
 
 .article1{
-	opacity: 0;
 	top:215px;
 	width: 43%;
 	height: 800px;
@@ -72,7 +82,6 @@ a{
 	position: absolute;
 }
 .article2{
-	opacity: 0;
 	top:215px;
 	width: 43%;
 	height: 800px;
@@ -81,7 +90,6 @@ a{
 	position: absolute;
 }
 .article3{
-	opacity: 0;
 	top:215px;
 	width: 43%;
 	height: 800px;
@@ -90,7 +98,6 @@ a{
 	position: absolute;
 }
 .article4{
-	opacity: 0;
 	top:215px;
 	width: 43%;
 	height: 800px;
@@ -107,6 +114,15 @@ a{
 .image3{
 	
 }
+.image4{
+	background-image: url('../images/mibb.jpg');
+	background-size:contain;
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 450px;
+	float:left;
+	margin: 2px;
+}
 .aheadline{
 	position: relative;
 	font-family: verdana;
@@ -114,15 +130,23 @@ a{
 	font-size: 1.8em;
 	margin: auto;
 	border-bottom: 2px solid gold;
-	text-align: center;
+	text-align: left;
 }
 .abodytext{
 	font-family:verdana;
-	font-size: 15pt;
+	font-size: 14pt;
 	margin: auto;
+	text-align: left;
 }
 /*Articles*/
 /*Previews*/
+#container{
+	position: absolute;
+	height: 400px;
+	width: 600px;
+	top:400px;
+	left:400px;
+}
 .headline{
 	color: darkblue;
 	font-family: verdana;
@@ -130,39 +154,59 @@ a{
 	position: relative;
 	border-bottom: 2px solid gold;
 }
+.headline:hover {
+	color:red;
+}
 .bodytext{
 	font-family: verdana;
 	font-size: 10pt;
 }
 .smallarticle1{
-	position: absolute;
-	top: 300px;
-	left: 100px;
-	width: 21.43%;
-	height:300px;
+	position: relative;
+	width: 40%;
+	height:200px;
+	float: right;
 }
 .smallarticle2{
-	position: absolute;
-	top: 500px;
-	left: 100px;
-	width: 21.43%;
-	height:300px;	
+	position: relative;
+	width: 40%;
+	height:200px;	
 }
 .smallarticle3{
-	position: absolute;
-	top: 300px;
-	right: 100px;
-	width: 21.43%;
-	height:300px;	
+	position: relative;
+	width: 40%;
+	height:200px;	
+	float: right;
 }
 .smallarticle4{
-	position: absolute;
-	top: 500px;
-	right: 100px;
-	width: 21.43%;
-	height:300px;	
+	position: relative;
+	width: 40%;
+	height:200px;	
 }
 /*Previews*/
 .author {
 	font-size:11pt;
+}
+.none{
+	display: none;
+}
+.add1{
+	background-image: url('../images/fort.png');
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 230px;
+	width: 200px;
+	right: -50px;
+	top:220px;
+}
+.add2{
+	background-image: url('../images/swimming.png');
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 230px;
+	width: 200px;
+	right: -50px;
+	top:520px;
 }

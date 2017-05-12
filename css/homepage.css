@@ -10,6 +10,12 @@ overflow: hidden;
 a{
 	text-decoration: none;
 }
+a:hover{
+	color: red;
+}
+.navigation:visited{
+	color: purple;
+}
 .logo {
 	font-family: verdana;
 	color:gold;
@@ -77,6 +83,9 @@ a{
 	margin: auto;
 	border-bottom: 2px solid gold;
 	text-align: center;
+}
+.fpheadline:hover{
+	color: red;
 }
 .fpbodytext{
 	font-family:verdana;

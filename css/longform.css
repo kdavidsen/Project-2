@@ -10,6 +10,12 @@ overflow: hidden;
 a{
 	text-decoration: none;
 }
+a:hover{
+	color: red;
+}
+.navigation:visited{
+	color: purple;
+}
 .logo {
 	font-family: verdana;
 	color:gold;

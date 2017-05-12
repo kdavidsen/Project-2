@@ -1,119 +1,317 @@
 /* All CSS styles go here */
 /*Header*/
+html{overflow-x: hidden}
 .header {
-	background-color: blue;
+	background: linear-gradient(cyan, blue);
 	height: 200px;
-	width: 1280px
+	width: 100%;
+overflow: hidden;
 }
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+}
+.navigation:visited{
+	color: purple;
+}
+
 .logo {
+	font-family: verdana;
 	color:gold;
+	font-size: 4em;
 	position: relative;
+	letter-spacing: -5px;
 }
 .navigation {
+	font-family: verdana;
 	color: gold;
 	position: relative;
+	float: left;
+	margin:20px 20px 0px 0;
+	font-size: 16pt;
 }
-.nav1 {
+.animbar1{
+	width: 100%;
+	height: 5px;
+	background-color: blue;
+	position: absolute;
+	top:200px;
+	animation: water 11s linear 0s infinite;
+}
+.animbar2{
+	width: 100%;
+	height: 5px;
+	background-color: blue;
+	position: absolute;
+	top:205px;
+	animation: water 7s linear 0s infinite;
+}
+.animbar3{
+	width: 100%;
+	height: 5px;
+	background-color: blue;
+	position: absolute;
+	top:210px;
+	animation: water 9s linear 0s infinite;
+}
+@keyframes water {
+	from {left:-100%;}
+	to{left:200%;}
+}
 
-}
-.nav2 {
-
-}
-.nav3 {
-
-}
-.nav4 {
-
-}
-.title {
-
-}
 /*Header*/
+.body{
+	background-color:white;
+	height: 800px;
+	width: 100%;
+}
 /*Articles*/
-.aheadline{
 
-}
-.abodytext{
-
-}
 .article1{
-
+	top:215px;
+	width: 43%;
+	height: 800px;
+	left: 450px;
+	margin-top: 30px;
+	position: absolute;
 }
 .article2{
-	
+	top:215px;
+	width: 43%;
+	height: 800px;
+	left: 450px;
+	margin-top: 30px;
+	position: absolute;
 }
 .article3{
-	
+	top:215px;
+	width: 43%;
+	height: 800px;
+	left: 450px;
+	margin-top: 30px;
+	position: absolute;
 }
 .article4{
-	
+	top:215px;
+	width: 43%;
+	height: 800px;
+	left: 450px;
+	margin-top: 30px;
+	position: absolute;
 }
 .article5{
-
+	top:215px;
+	width: 43%;
+	height: 800px;
+	left: 450px;
+	margin-top: 30px;
+	position: absolute;
 }
 .article6{
-	
+	top:215px;
+	width: 43%;
+	height: 800px;
+	left: 450px;
+	margin-top: 30px;
+	position: absolute;
 }
 .article7{
-	
+	top:215px;
+	width: 43%;
+	height: 800px;
+	left: 450px;
+	margin-top: 30px;
+	position: absolute;
 }
 .article8{
-	
+	top:215px;
+	width: 43%;
+	height: 800px;
+	left: 450px;
+	margin-top: 30px;
+	position: absolute;
 }
 .image1{
-
+	background-image: url('../images/ta.jpg');
+	background-size:contain;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 150px;
+	float:left;
 }
 .image2{
-	
+	background-image: url('../images/lc.jpg');
+	background-size:contain;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 150px;
+	float:left;
 }
 .image3{
-	
+	background-image: url('../images/gd.jpg');
+	background-size:contain;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 150px;
+	float:left;
 }
 .image4{
-
+	background-image: url('../images/engagement2.jpg');
+	background-size:contain;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 150px;
+	float:left;
 }
 .image5{
-	
+	background-image: url('../images/at.jpg');
+	background-size:contain;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 150px;
+	float:left;
 }
 .image6{
-	
+	background-image: url('../images/ht.jpg');
+	background-size:contain;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 150px;
+	float:left;
 }
 .image7{
-
+	background-image: url('../images/tb.jpg');
+	background-size:contain;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 150px;
+	float:left;
 }
 .image8{
-	
+	background-image: url('../images/dd.jpg');
+	background-size:contain;
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 200px;
+	float:left;
+}
+.aheadline{
+	position: relative;
+	font-family: verdana;
+	color: darkblue;
+	font-size: 1.8em;
+	margin: auto;
+	border-bottom: 2px solid gold;
+	text-align: left;
+}
+.abodytext{
+	font-family:verdana;
+	font-size: 14pt;
+	margin: auto;
 }
 /*Articles*/
 /*Previews*/
+#container{
+	position: absolute;
+	height: 400px;
+	width: 1200px;
+	top:400px;
+	left:100px;
+}
 .headline{
-
+	color: darkblue;
+	font-family: verdana;
+	font-size: 14pt;
+	position: relative;
+	border-bottom: 2px solid gold;
+}
+.headline:hover {
+	color:red;
 }
 .bodytext{
-
+	font-family: verdana;
+	font-size: 10pt;
 }
 .smallarticle1{
-
+	position: relative;
+	width: 25%;
+	height:200px;
+	float: right;
+	padding: 5px;
 }
 .smallarticle2{
-	
+	position: relative;
+	width: 25%;
+	height:200px;	
+	float: right;
+	padding: 5px;
 }
 .smallarticle3{
-	
+	position: relative;
+	width: 25%;
+	height:200px;
+	float: right;
+	padding: 5px;	
 }
 .smallarticle4{
-	
+	position: relative;
+	width: 25%;
+	height:200px;
+	padding: 5px;	
 }
 .smallarticle5{
-
+	position: relative;
+	width: 25%;
+	height:200px;
+	float: right;
+	padding: 5px;
 }
 .smallarticle6{
-	
+	position: relative;
+	width: 25%;
+	height:200px;
+	float: right;
+	padding: 5px;
 }
 .smallarticle7{
-	
+	position: relative;
+	width: 25%;
+	height:200px;
+	float: right;
+	padding: 5px;
 }
 .smallarticle8{
-	
+	position: relative;
+	width: 25%;
+	height:200px;
+	padding: 5px;
 }
 /*Previews*/
+.author {
+	font-size:11pt;
+}
+.none{
+	display: none;
+}
+.add1{
+	background-image: url('../images/fort.png');
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 230px;
+	width: 200px;
+	right: -50px;
+	top:220px;
+}
+.add2{
+	background-image: url('../images/swimming.png');
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 230px;
+	width: 200px;
+	right: -50px;
+	top:520px;
+}
